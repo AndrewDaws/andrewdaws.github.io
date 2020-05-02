@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/git,linux,backup,archive,windows,archives,compressed,compression,visualstudiocode,compressedarchive
-# Edit at https://www.gitignore.io/?templates=git,linux,backup,archive,windows,archives,compressed,compression,visualstudiocode,compressedarchive
+# Created by https://www.gitignore.io/api/git,linux,backup,archive,windows,archives,compressed,compression,compressedarchive,macos
+# Edit at https://www.gitignore.io/?templates=git,linux,backup,archive,windows,archives,compressed,compression,compressedarchive,macos
 
 ### Archive ###
 
@@ -265,16 +265,33 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -298,4 +315,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/git,linux,backup,archive,windows,archives,compressed,compression,visualstudiocode,compressedarchive
+# End of https://www.gitignore.io/api/git,linux,backup,archive,windows,archives,compressed,compression,compressedarchive,macos
